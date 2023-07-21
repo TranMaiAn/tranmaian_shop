@@ -1,0 +1,362 @@
+* {
+    box-sizing:border-box
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+/* Header1 css start */
+.fa-circle {
+    color: red;
+    display: inline-block;
+}
+#Short h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-size: 17px;
+    /* text-align: center; */
+    display: inline-block;
+}
+.short button {
+    color: white;
+    background-color: #007aff;
+    border: none;
+    padding: 8px;
+    display: inline-block;
+}
+.short button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+/* Header1 css end */
+/*  */
+/* Header2 css start */
+.one {
+    background-color: #cd1817;
+    width: 100%;
+    height: auto;
+}
+input {
+    width: 300px;
+    height: 35px;
+}
+.fa-magnifying-glass {
+    color: white;
+    background-color: black;
+    padding: 15px;
+    font-size: 20px;
+    padding-bottom: 12px;
+    padding-top: 8px;
+}
+.fa-magnifying-glass:hover {
+    cursor: pointer;
+}
+.one .One {
+    color: white;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding: 15px;
+}
+.One {
+    color: white;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding: 15px;
+}
+.one .One:hover {
+    cursor: pointer;
+}
+/* Header2 css end */
+/*  */
+/* Header3 css start */
+.two {
+    background-color: black;
+}
+.two .Two {
+    color: white;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: none;
+}
+.two .Two:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+.fa-mobile-screen-button {
+    color: white;
+    font-size: 18px;
+}
+.fa-laptop {
+    color: white;
+    font-size: 18px;
+}
+.fa-rotate-90 {
+    color: white;
+    font-size: 18px;
+}
+.fa-apple {
+    color: white;
+    font-size: 21px;
+}
+.fa-computer {
+    color: white;
+    font-size: 18px;
+}
+.fa-headphones-simple {
+    color: white;
+    font-size: 18px;
+}
+.fa-arrow-rotate-right {
+    color: white;
+    font-size: 17px;
+}
+.fa-house {
+    color: white;
+    font-size: 18px;
+}
+.fa-sim-card {
+    color: white;
+    font-size: 17px;
+}
+.fa-comment-dollar {
+    color: white;
+    font-size: 18px;
+}
+/* Header3 css end */
+/*  */
+/* Advertisement table start */
+.advertisement {
+    display: grid;
+    grid-template-rows: 200px 2fr;
+    grid-template-columns: 2fr;
+}
+#advertisement h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+/* Advertisement table end */
+/*  */
+/* Slider start */
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  padding: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Chữ caption dưới những hình ảnh */
+.text {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  display: none;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* Slider end */
+/*  */
+/* img1  start*/
+#img1:active {
+    cursor: pointer;
+}
+/* img1 end */
+/* nav bar start */
+/* The navigation menu */
+
+/* Navigation links */
+.navbar a {
+  color: white;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    padding: 15px;
+}
+
+/* The subnavigation menu */
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  padding: 15px;
+}
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: white;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  float: left;
+  color: black;
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  color: black;
+  opacity: 1;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+  display: block;
+}
+/* nav bar end */
+/* #Phone {
+  background-color: #ccc;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 15px;
+  margin-left: 40px;
+}
+#Đt {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 40px;
+}
+.Phone:hover {
+  cursor: pointer;
+} */
+#img7 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fa-fire {
+  color: #cd1817;
+  font-size: 20px;
+  text-align: left;
+  margin-left: 70px;
+}
+#h2 {
+  color: #cd1817;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#Iphone {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+#Price {
+  color: white;
+  background-color: #cd1817;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 50px;
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+}
+#img {
+  border-radius: 50px;
+}
+#rectangle{
+  width:200px;
+  height:100px;
+  background:#ccc;
+}
+#img34 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#Bh {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
